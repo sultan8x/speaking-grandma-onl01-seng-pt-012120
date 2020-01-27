@@ -3,12 +3,20 @@
 # Require this file using `require "spec_helper"` to ensure that it is only
 # loaded once.
 
+<<<<<<< HEAD
 require_relative '../grandma.rb'
+=======
+require_relative grandma.rb
+>>>>>>> b10d92df3863e4ab78ad4babb9b2e82ba3aa4fba
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 RSpec.configure do |config|
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> b10d92df3863e4ab78ad4babb9b2e82ba3aa4fba
   # config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
@@ -17,6 +25,10 @@ RSpec.configure do |config|
   # order dependency and want to debug it, you can fix the order by providing
   # the seed, which is printed after each run.
   #     --seed 1234
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> b10d92df3863e4ab78ad4babb9b2e82ba3aa4fba
   config.order = 'default'
 end

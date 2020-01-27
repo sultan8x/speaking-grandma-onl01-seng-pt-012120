@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def speak_to_grandma(phrase)
 
   if phrase == "I LOVE YOU GRANDMA!"
@@ -12,3 +13,8 @@ def speak_to_grandma(phrase)
   end
 
   end
+=======
+require_relative '../grandma.rb'
+
+
+>>>>>>> b10d92df3863e4ab78ad4babb9b2e82ba3aa4fba
